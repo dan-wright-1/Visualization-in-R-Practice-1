@@ -112,13 +112,3 @@ plot_7 <- top_locations_salary %>% ggplot(aes(x = median_salary, y = reorder(loc
   scale_x_continuous(labels = label_currency()) +
   theme_bw() + 
   theme(legend.position = "none")
-
-
-# Pre-Submission Checks --------------------------------------------------------------------------------
-
-# The checks run by the command below will see whether you have named your objects 
-# and columns exactly correct. Any issues it finds will be reported in the console. 
-# If it see what it expects to see, you'll instead see a message that "All naming 
-# tests passed."
-
-source('submission_checks.R')

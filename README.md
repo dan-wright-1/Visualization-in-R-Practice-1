@@ -1,6 +1,9 @@
 # Visualization-in-R-Practice-1
 This was my final submission to a test administered in my Data Science class. I explored a dataset summarizing job postings from various companies around the US. All of the job postings have something to do with data, and most of them are data science jobs. I completed this individually and without the use of any AI tools.
 
+## So What?
+Let's say, for the sake of this case, that the HR department at XYZ company wanted to strategically post job listings for data-related positions at competitive salaries in multiple locations. It would be important for the department to know the answers to a few questions before posting their listings on a job board. Questions like, "What are the most common titles in the job market right now?", "What should we expect to pay these new employees?", or "Does industry type make a difference in the expected salary for this position?" These plots would be a step in the right direction to answer those important questions.
+
 ### 1. Top 10 Hiring Companies - plot_1
 
 Create plot_1 to display the top 10 companies in the dataset in terms of the number of job postings listed. (Note that there are 4 ties for the 9th spot, so the tibble and the subsequent plot show 12 companies.) 
